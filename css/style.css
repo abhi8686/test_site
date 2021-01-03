@@ -182,3 +182,6 @@ button {
 button:hover {
   border: 2px solid black;
 }
+label {
+  font-family: 'Open Sans';
+}
