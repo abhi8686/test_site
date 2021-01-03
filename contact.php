@@ -16,8 +16,8 @@ try {
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
-        $mail->Username = ''; // YOUR gmail email
-        $mail->Password = ''; // YOUR gmail password
+        $mail->Username = 'anagisetty1@gmail.com'; // YOUR gmail email
+        $mail->Password = 'Abhi6823@'; // YOUR gmail password
 
         // Sender and recipient settings
         $mail->setFrom($_POST["email"], $_POST["name"]);
