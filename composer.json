@@ -1,0 +1,12 @@
+{
+    "name": "seanergymacpro003/true-equ",
+    "authors": [
+        {
+            "name": "srikrishna",
+            "email": "srikrishna@glooko.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.2"
+    }
+}

@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.font-open {
+  font-family: "Open Sans", sans-serif;
+}
+.font-work {
+  font-family: "Work Sans", sans-serif;
+}
+
+.font-light {
+  font-weight: 300;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-thin {
+  font-weight: 100;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-black {
+  color: #000;
+}
+
+.bg-grey {
+  background: #f5f5f8;
+}
+.background-section {
+  background-image: url("../images/home_banner.png");
+  width: 100%;
+  min-height: 800px;
+}
+.start-project {
+  background: #35b7b6;
+  box-shadow: 3px 3px 11px 10px rgba(53, 183, 182, 0.13);
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 10px 30px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: 0.21px;
+  font-weight: 600;
+}
+.banner-title {
+  font-size: 36px;
+  color: #224475;
+  letter-spacing: -0.8px;
+}
+.banner-subtitle {
+  background: #ecf5f9;
+  border-radius: 5px;
+}
+.subtitle-style {
+  font-size: 18px;
+  color: #2b2b2b;
+  letter-spacing: 0.16px;
+  padding: 20px;
+  font-family: "Work Sans", sans-serif;
+}
+.our-services {
+  font-size: 36px;
+  color: #0d89bc;
+  letter-spacing: -0.67px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+}
+.our-services-subtitle {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #2b2b2b;
+  letter-spacing: 0.26px;
+  text-align: center;
+}
+.service-block {
+  background: #f4f4f5;
+  border-radius: 4px;
+  padding: 50px;
+}
+
+.text-service {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+.aboutus-title {
+  font-family: "Work Sans";
+  font-size: 30px;
+  color: #173760;
+  letter-spacing: -0.54px;
+}
+.about-us-text {
+  font-family: "Open Sans";
+  font-size: 14px;
+  color: #303030;
+  letter-spacing: 0;
+}
+.vh-50 {
+  min-height: 50vh;
+}
+
+.location {
+  font-family: "Work Sans";
+  font-size: 20px;
+  color: #224475;
+  letter-spacing: -0.4px;
+}
+.border-1 {
+  border-left: 1px solid #979797;
+}
+.hyderabad {
+  font-family: "Work Sans";
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: -0.54px;
+}
+.footer-menu li {
+  display: inline;
+  font-weight: 300;
+  font-family: "Open Sans";
+  font-size: 20px;
+  color: #000000;
+  letter-spacing: -0.32px;
+  padding-right: 30px;
+}
+.footer-text {
+  font-family: "Work Sans";
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: -0.4px;
+}
+
+div.elem-group {
+  margin: 40px 0;
+}
+
+label {
+  display: block;
+  font-family: 'Aleo';
+  padding-bottom: 4px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Aleo';
+  width: 500px;
+  padding: 8px;
+}
+
+textarea {
+  height: 250px;
+}
+
+button {
+  height: 50px;
+  background: green;
+  color: white;
+  border: 2px solid darkgreen;
+  font-size: 1.25em;
+  font-family: 'Aleo';
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid black;
+}
