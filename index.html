@@ -23,7 +23,7 @@
   </head>
   <body>
     <div class="background-section">
-      <div class="container px-0">
+      <div class="container px-0" id="home">
         <div class="row mx-0 align-items-center">
           <div class="col-sm-10 px-0">
             <a href="/"><img src="./images/Logo1.svg"></a>
@@ -47,10 +47,13 @@
 
             <div class="banner-subtitle">
               <p class="subtitle-style">
-                A communication & collaboration suite for teams. With natively
-                built key business essentials like messaging, AV calling, drive,
-                meetings, tasks, calendar, notes, and kanbans, we are on a
-                mission to create happy & productive workspaces.
+                We aim to provide digital transformation for enterprises and
+                technology providers by delivering seamless customer experience,
+                business efficiency, and actionable insights through an
+                integrated set of disruptive technologies and services across
+                various domains. With our innovative and highly scalable
+                approach we increase the level of connectivity with you and your
+                customer, thereby providing a significant competitive edge.
               </p>
             </div>
           </div>
@@ -66,7 +69,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="ourservices">
       <div class="row">
         <div class="col-sm-12 text-center">
           <p class="our-services">Our Services</p>
@@ -113,12 +116,12 @@
       </div>
     </div>
 
-    <div class="container-fluid bg-grey my-3">
+    <div class="container-fluid bg-grey my-3" id="aboutus">
       <div class="container">
         <div class="row align-items-center vh-50">
         <div class="col-sm-12 col-md-5">
           <h1 class="aboutus-title">About Us</h1>
-          <p class="about-us-text">Truequations Truequations is a India based global software solutions company with a vision to serve broad spectrum of industries who are consistently leveraging the business-edge IT solutions.
+          <p class="about-us-text">Truequations is a India based global software solutions company with a vision to serve broad spectrum of industries who are consistently leveraging the business-edge IT solutions.
             <br>
  Truequations partners with our clients in offering end-to-end product development and software services with a heavy focus on Enterprise Data Management and Next Generation Technology Adoptions, henceforth driving businesses to realize the value and true potential of Data.
           </p>
@@ -164,10 +167,15 @@
 
             <div class="col-sm-12 col-md-5 border-1 py-3">
               <ul class="footer-menu">
-                <li>Home</li>
-                <li>Our Services</li>
-                <li>Our Approach</li>
-                <li>About Us</li>
+                <li>
+                <a href="#home">Home</a>  
+                </li>
+                <li>
+                 <a href="#ourservices"> Our Services </a>
+                </li>
+                <li>
+                <a href="#aboutus">   About Us </a>
+                </li>
               </ul>
               <div style="padding-left: 40px">
                 <p class="location">
@@ -206,7 +214,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <form>
+            <form style="padding-bottom: 30px;">
               <div class="row">
                 <div class="col-sm-6">
                   <label for="name">Name*</label>
